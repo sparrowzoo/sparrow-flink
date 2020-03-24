@@ -12,9 +12,10 @@ import java.util.List;
 
 public class LogisticRegressionExample {
     public static void main(String[] args) throws Exception {
-        String url = "D:\\workspace\\sparrow\\open-source-integration-shell\\sparrow-flink\\src\\main\\java\\com\\sparrow\\ml\\csv\\movielens_ratings.csv";
-        String schema = "f0 bigint, f1 bigint, label double, weight double";
-
+        String url = "D:\\workspace\\sparrow\\sparrow-flink\\src\\main\\java\\com\\sparrow\\ml\\csv\\lr.csv";
+        //输入行370,2770,1,0.5
+        String schema = "f0 float, f1 float, label int";
+        //String schema = "f0 bigint, f1 bigint, label double, weight double";
         BatchOperator data = new CsvSourceBatchOp()
                 .setFilePath(url).setSchemaStr(schema);
 
@@ -24,7 +25,7 @@ public class LogisticRegressionExample {
                 .setPredictionCol("pred")
                 .setPredictionDetailCol("pred_detail")
                 .setWeightCol("weight")
-                .setStandardization(false)
+                .setStandardization(true)
                 .setWithIntercept(true);
         LogisticRegressionModel model = lr.fit(data);
         List<Row> list = BatchOperator.fromTable(model.getModelData()).collect();

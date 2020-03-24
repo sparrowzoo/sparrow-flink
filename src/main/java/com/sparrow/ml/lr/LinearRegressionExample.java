@@ -16,7 +16,9 @@ public class LinearRegressionExample {
         LinearRegression lr = new LinearRegression()
                 .setFeatureCols("user_id", "movie_id")
                 .setLabelCol("label")
-                .setPredictionCol("pred");
+                .setPredictionCol("pred")
+                .setWeightCol("weight");
+                //.setReservedCols("")
         LinearRegressionModel model = lr.fit(data);
         model.transform(data).print();
     }
