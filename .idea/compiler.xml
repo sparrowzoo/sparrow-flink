@@ -9,5 +9,8 @@
         <module name="sparrow-flink" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sparrow-flink" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

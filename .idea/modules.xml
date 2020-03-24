@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sparrow-flink.iml" filepath="$PROJECT_DIR$/.idea/sparrow-flink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparrow-flink.iml" filepath="$PROJECT_DIR$/sparrow-flink.iml" />
     </modules>
   </component>
 </project>
