@@ -3,15 +3,16 @@ package com.sparrow.stream.window.count;
 import com.alibaba.fastjson.JSON;
 import com.sparrow.stream.window.behivior.UserBehaviorBO;
 import org.apache.flink.api.common.functions.ReduceFunction;
+import org.apache.flink.api.common.functions.RichReduceFunction;
 import org.apache.flink.api.common.restartstrategy.RestartStrategies;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.CheckpointingMode;
-import org.apache.flink.streaming.api.datastream.DataStream;
-import org.apache.flink.streaming.api.datastream.KeyedStream;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.ProcessFunction;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+import org.apache.flink.streaming.api.functions.windowing.ProcessAllWindowFunction;
+import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
+import org.apache.flink.streaming.api.windowing.windows.Window;
 import org.apache.flink.util.Collector;
 import org.apache.rocketmq.flink.RocketMQConfig;
 import org.apache.rocketmq.flink.RocketMQSource;
@@ -23,8 +24,8 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Properties;
 
-public class CountUserBehaviorNearApplication {
-    private static Logger logger = LoggerFactory.getLogger(CountUserBehaviorNearApplication.class);
+public class CountUserBehaviorNearSlidingApplication {
+    private static Logger logger = LoggerFactory.getLogger(CountUserBehaviorNearSlidingApplication.class);
 
 
     public static void main(String[] args) throws IOException {
@@ -49,7 +50,7 @@ public class CountUserBehaviorNearApplication {
         consumerProps.setProperty(RocketMQConfig.CONSUMER_GROUP, "flink-click");
         consumerProps.setProperty(RocketMQConfig.CONSUMER_TOPIC, "flink-click-count");
 
-        DataStream source = env.addSource(new RocketMQSource(new SimpleKeyValueDeserializationSchema(), consumerProps))
+        env.addSource(new RocketMQSource(new SimpleKeyValueDeserializationSchema(), consumerProps))
                 .name("rocketmq-source")
                 .setParallelism(4)
                 .process(new ProcessFunction<Map, UserBehaviorBO>() {
@@ -62,16 +63,32 @@ public class CountUserBehaviorNearApplication {
                     }
                 })
                 .name("map-processor")
-                .setParallelism(4);
-        KeyedStream keyedStream = source.keyBy(new KeySelector<UserBehaviorBO, Integer>() {
-            @Override
-            public Integer getKey(UserBehaviorBO o) throws Exception {
-                return o.getCompanyId();
-            }
-        });
-
-
-        keyedStream.countWindow(10)
+                .setParallelism(4)
+                .keyBy(new KeySelector<UserBehaviorBO, Integer>() {
+                    @Override
+                    public Integer getKey(UserBehaviorBO o) throws Exception {
+                        return o.getCompanyId();
+                    }
+                })
+                .countWindow(10, 5)
+                /**
+                 * @see ReduceApplyWindowFunction
+                 * @Override
+                 * 	public void apply(K k, W window, Iterable<T> input, Collector<R> out) throws Exception {
+                 *
+                 * 		T curr = null;
+                 * 		for (T val: input) {
+                 * 			if (curr == null) {
+                 * 				curr = val;
+                 * 			} else {
+                 * 				curr = reduceFunction.reduce(curr, val);
+                 * 			}
+                 * 		}
+                 * 		wrappedFunction.apply(k, window, Collections.singletonList(curr), out);
+                 * 	}
+                 * 	滑动窗口下reduce 非增量运算
+                 * 	aggregation 同理
+                 */
                 .reduce(new ReduceFunction<UserBehaviorBO>() {
                     @Override
                     public UserBehaviorBO reduce(UserBehaviorBO value1, UserBehaviorBO value2) throws Exception {

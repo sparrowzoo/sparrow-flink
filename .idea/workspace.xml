@@ -13,32 +13,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogisticRegressionExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/lr/LogisticRegressionExample.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="459">
+              <caret line="176" column="21" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="HBaseUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="7" lean-forward="true" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="-1299">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lr.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/csv/lr.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <file leaf-file-name="HBaseAggregationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseAggregationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseCreateTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseCreateTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBaseTableDesc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseTableDesc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBaseShowTables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseShowTables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyClickTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/CompanyClickTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitTimeUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/UnitTimeUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HbaseDropTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseDropTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HBaseConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-887">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -77,20 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/word/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/po/WordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/redis/AddressAssemble.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/redis/TtlRedisClusterContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/redis/TtlClusterRedisSink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/redis/TtlRedisContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/word/FlinkRedisMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/word/WordCountApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/word/ProducerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/Element.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/WatermarkElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/EventTriigerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/PeriedWatermark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/PeriodicWatermarkAssigner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/watermark/ConsumerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/watermark/EventTriggerProxy.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/watermark/ProducerTest.java" />
@@ -100,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/movielens_ratings.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/CsvSourceSinkExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/csv/CsvSourceSinkExample.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/mysql/CsvSourceMysqlSinkExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/mysql/MysqlSourceExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/mysql/MysqlSourceALSExample.java" />
@@ -111,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/MemoryTotal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/RealTimeUserBehaviorNearApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountTriggerProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/behivior/UserBehaviorBO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/TimeTriggerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/RealTimeUserBehaviorNearApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/RealTimeUserBehaviorNearApplication.java" />
@@ -122,12 +178,28 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/window/ProducerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/window/ConsumerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/DeduplicateFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearAllApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/RedisConnection.java" />
         <option value="$PROJECT_DIR$/reame.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/ml/TFjavaDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/IncreamentAggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/behivior/UserBehaviorBO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/AverageAccumulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/AvgAggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearSlidingApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseDropTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/UnitTimeUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/CompanyClickTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseShowTables.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseCreateTable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseAggregationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseTableDesc.java" />
       </list>
     </option>
   </component>
@@ -153,10 +225,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="716" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="55" />
+    <option name="y" value="9" />
+    <option name="width" value="1063" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,6 +238,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,12 +247,80 @@
               <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow-flink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,23 +332,23 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\sparrow\sparrow-flink\src\test\java\com\sparrow\flink" />
+      <recent name="D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\window" />
+      <recent name="D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow" />
+      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink" />
+      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sparrow.stream.utils" />
+      <recent name="com.sparrow.stream.window" />
+      <recent name="com.sparrow.stream.window.count" />
+      <recent name="com.sparrow.stream.window.time" />
+      <recent name="com.sparrow.stream.window.behivior" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\test" />
       <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\main\java\com\sparrow\ml\csv" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sparrow.stream.window.time" />
-      <recent name="com.sparrow.stream.window.count" />
-      <recent name="com.sparrow.stream.window.behivior" />
-      <recent name="com.sparrow.stream.window" />
-      <recent name="com.sparrow.ml.mysql" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink" />
-      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\main" />
-      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\main\resources" />
-      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\test\java\com\sparrow\flink\window" />
-      <recent name="D:\workspace\sparrow\open-source-integration-shell\sparrow-flink\src\main\java\com\sparrow\ml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,20 +363,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerTest">
-    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparrow.flink.window.ConsumerTest" />
-      <module name="sparrow-flink" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sparrow.flink.window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CountUserBehaviorNearAllApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparrow.stream.window.count.CountUserBehaviorNearAllApplication" />
+  <component name="RunManager" selected="Application.CountUserBehaviorNearSlidingApplication">
+    <configuration name="CountUserBehaviorNearApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparrow.stream.window.count.CountUserBehaviorNearApplication" />
       <module name="sparrow-flink" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -243,8 +375,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CountUserBehaviorNearApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sparrow.stream.window.count.CountUserBehaviorNearApplication" />
+    <configuration name="CountUserBehaviorNearSlidingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparrow.stream.window.count.CountUserBehaviorNearSlidingApplication" />
       <module name="sparrow-flink" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -261,6 +393,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sparrow.flink.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TFjavaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sparrow.ml.TFjavaDemo" />
+      <module name="sparrow-flink" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sparrow.ml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,13 +469,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
-      <item itemvalue="Application.ConsumerTest" />
-      <item itemvalue="Application.CountUserBehaviorNearAllApplication" />
       <item itemvalue="Application.CountUserBehaviorNearApplication" />
       <item itemvalue="Application.ProducerTest" />
       <item itemvalue="Application.TimeUserBehaviorNearApplication" />
+      <item itemvalue="Application.TFjavaDemo" />
+      <item itemvalue="Application.CountUserBehaviorNearSlidingApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountUserBehaviorNearSlidingApplication" />
+        <item itemvalue="Application.CountUserBehaviorNearApplication" />
+        <item itemvalue="Application.TimeUserBehaviorNearApplication" />
+        <item itemvalue="Application.ProducerTest" />
+        <item itemvalue="Application.TFjavaDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -362,60 +572,53 @@
       <workItem from="1582955160850" duration="46000" />
       <workItem from="1582973568408" duration="15000" />
       <workItem from="1583039401960" duration="990000" />
+      <workItem from="1586425429644" duration="4990000" />
+      <workItem from="1587110748927" duration="626000" />
+      <workItem from="1587470495096" duration="639000" />
+      <workItem from="1587559951874" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121592000" />
+    <option name="totallyTimeSpent" value="128969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.11951589" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.69363165" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40103272" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46299484" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4698795" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31089258" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.55593807" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20516963" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40599" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40206185" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4234079" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.6437177" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58934706" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.6443299" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,6 +632,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/TFjavaDemo.java</url>
+          <line>25</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/TFjavaDemo.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearSlidingApplication.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearSlidingApplication.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="ctx.getCurrentWatermark()" />
@@ -437,6 +680,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Paths.get(path)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>duplicateMap.contains(1)</expression-string>
         <language-id>JAVA</language-id>
@@ -477,113 +725,17 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>duplicateMap.get(7)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/InternalTimerServiceImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/tasks/StreamTask.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/datastream/WindowedStream.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ProcessWindowFunction.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/TimeUserBehaviorNearAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/PassThroughWindowFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/operators/windowing/functions/InternalIterableWindowFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/operators/windowing/EvictingWindowOperator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/operators/windowing/WindowOperator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/windowing/triggers/ProcessingTimeTrigger.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/CopyOnWriteStateMap.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/StateTable.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/HeapReducingState.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ReduceApplyWindowFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/FilterFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/Output.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-protobuf_2.11/2.5.21/akka-protobuf_2.11-2.5.21.jar!/akka/protobuf/ByteString.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/window/ConsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0-sources.jar!/org/apache/rocketmq/common/message/MessageClientIDSetter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0-sources.jar!/org/apache/rocketmq/common/message/Message.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/TimeTriggerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/TimeUserBehaviorNearApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="62" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-flink/0.0.1-SNAPSHOT/rocketmq-flink-0.0.1-SNAPSHOT.jar!/org/apache/rocketmq/flink/RocketMQSource.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/state/StateTtlConfig.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0-sources.jar!/org/apache/rocketmq/client/impl/producer/DefaultMQProducerImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/window/ProducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/ProcessOperator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/tasks/OperatorChain.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/AbstractStreamOperator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/StreamSourceContexts.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/state/MapState.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/RuntimeContext.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/behivior/UserBehaviorBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/RichFilterFunction.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/io/StreamOneInputProcessor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/operators/StreamFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/DeduplicateFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ProcessAllWindowFunction.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/RedisConnection.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearAllApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/lr/LogisticRegressionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/lr/LinearRegressionExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -598,24 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/word/ProducerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="23" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -624,6 +762,300 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/csv/lr.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/lr/LogisticRegressionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/rf.pb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/ml/TFjavaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/word/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearAllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ProcessWindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/StateTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/runtime/operators/windowing/WindowOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/time/TimeUserBehaviorNearApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/IncreamentAggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/behivior/UserBehaviorBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/po/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/AverageAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/MemoryTotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/HeapReducingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/WindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/ReduceFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/functions/windowing/ReduceApplyWindowFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearSlidingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/CountUserBehaviorNearApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-runtime_2.11/1.9.0/flink-runtime_2.11-1.9.0-sources.jar!/org/apache/flink/runtime/state/heap/CopyOnWriteStateMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12096">
+          <caret line="382" column="43" selection-start-line="382" selection-start-column="43" selection-end-line="382" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/AvgAggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/window/count/DeduplicateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/word/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/window/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0-sources.jar!/org/apache/rocketmq/common/message/MessageExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0.jar!/META-INF/maven/org.apache.rocketmq/rocketmq-common/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="176" column="21" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-887">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/HBaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1299">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sparrow/stream/utils/UnitTimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseShowTables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseCreateTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseAggregationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/CompanyClickTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HbaseDropTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sparrow/flink/HBaseTableDesc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

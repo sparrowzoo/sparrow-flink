@@ -1,6 +1,6 @@
 package com.sparrow.stream.window.behivior;
 
-public class UserBehaviorBO {
+public class UserBehaviorBO implements Comparable<UserBehaviorBO>{
     private Integer companyId;
     private Integer skuId;
     private Long time;
@@ -46,6 +46,12 @@ public class UserBehaviorBO {
     public void setCount(Integer count) {
         this.count = count;
     }
+
+    @Override
+    public int compareTo(UserBehaviorBO userBehavior) {
+        return (int) (userBehavior.getTime() - this.time);
+    }
+
 
     @Override
     public String toString() {
