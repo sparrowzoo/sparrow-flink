@@ -1,4 +1,4 @@
-package com.sparrow.flink;
+package com.sparrow.flink.hbase;
 
 import com.sparrow.stream.utils.HBaseUtils;
 import com.sparrow.stream.utils.UnitTimeUtils;

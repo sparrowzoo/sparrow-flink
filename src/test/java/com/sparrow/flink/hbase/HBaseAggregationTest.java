@@ -1,4 +1,4 @@
-package com.sparrow.flink;
+package com.sparrow.flink.hbase;
 
 import com.sparrow.stream.utils.HBaseConfig;
 import com.sparrow.stream.utils.HBaseUtils;
@@ -13,6 +13,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import java.math.BigDecimal;
 
 public class HBaseAggregationTest {
+    //NoSuchColumnFamilyException  版本不一致导致
     public static void main(String[] args) throws Throwable {
         HBaseConfig baseConfig = new HBaseConfig();
         baseConfig.setRpcTimeout(60L);
