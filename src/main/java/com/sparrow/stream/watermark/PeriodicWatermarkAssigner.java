@@ -18,6 +18,7 @@ import org.apache.flink.streaming.api.watermark.Watermark;
 public class PeriodicWatermarkAssigner implements AssignerWithPeriodicWatermarks<WatermarkElement> {
 
     //每个partition 都会有一个watermark
+    //触发逻辑会取所有分区中最小的 P62
     //https://ci.apache.org/projects/flink/flink-docs-release-1.9/dev/event_timestamps_watermarks.html
     private long currentMaxTimestamp = 0L;
     private final long maxOutOfOrderness = 5000L;   //这个控制失序已经延迟的度量,时间戳10秒以前的数据

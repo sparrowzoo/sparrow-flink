@@ -80,21 +80,11 @@ public class WatermarkApplication {
             }
         }).setParallelism(4);
 
-        SingleOutputStreamOperator withTimestampsAndWatermarks = sourceProcessOperator.assignTimestampsAndWatermarks(new AssignerWithPunctuatedWatermarks<WatermarkElement>() {
-            @Override
-            public long extractTimestamp(WatermarkElement element, long previousElementTimestamp) {
-                return element.getTimestamp();
-            }
+        //SingleOutputStreamOperator withTimestampsAndWatermarks = sourceProcessOperator.assignTimestampsAndWatermarks(new PunctuatedWatermarksAssigner()).setParallelism(1);//必须是1
 
-            @Override
-            public Watermark checkAndGetNextWatermark(WatermarkElement lastElement, long extractedTimestamp) {
-                Watermark watermark = lastElement.getTimestamp() != null ? new Watermark(extractedTimestamp) : null;
-                System.out.println(Thread.currentThread().getId()+"-watermark"+DateFormatUtils.format(watermark.getTimestamp(),DateFormatUtils.ISO_DATETIME_FORMAT.getPattern()));
-                return watermark;
-            }
-        }).setParallelism(1);//必须是1
+        SingleOutputStreamOperator withTimestampsAndWatermarks = sourceProcessOperator.assignTimestampsAndWatermarks(new PeriodicWatermarkAssigner()).setParallelism(4);//必须是1
 
-        SingleOutputStreamOperator windowOperator= withTimestampsAndWatermarks
+        SingleOutputStreamOperator windowOperator = withTimestampsAndWatermarks
                 .timeWindowAll(Time.seconds(1))
                 .allowedLateness(Time.seconds(1))
                 .sideOutputLateData(lateOutputTag)
@@ -112,9 +102,9 @@ public class WatermarkApplication {
         windowOperator.addSink(new SinkFunction<WatermarkElement>() {
             @Override
             public void invoke(WatermarkElement value, Context context) throws Exception {
-                System.out.println("TIME:" + DateFormatUtils.format(context.timestamp(), DateFormatUtils.ISO_DATETIME_FORMAT.getPattern()));
-                System.out.println("WATER:" + DateFormatUtils.format(context.currentWatermark(), DateFormatUtils.ISO_DATETIME_FORMAT.getPattern()));
-                System.out.println(value);
+                System.out.println("SINK TIME:" + DateFormatUtils.format(context.timestamp(), DateFormatUtils.ISO_DATETIME_FORMAT.getPattern()));
+                System.out.println("SINK WATER:" + DateFormatUtils.format(context.currentWatermark(), DateFormatUtils.ISO_DATETIME_FORMAT.getPattern()));
+                System.out.println("SINK RESULT" + value);
             }
         })
                 .name("word-count-sink");

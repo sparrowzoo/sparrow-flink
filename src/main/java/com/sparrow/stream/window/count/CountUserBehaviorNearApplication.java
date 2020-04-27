@@ -85,7 +85,7 @@ public class CountUserBehaviorNearApplication {
                     public void invoke(UserBehaviorBO value, Context context) throws Exception {
                         System.out.println("sink result:" + value);
                     }
-                }).setParallelism(4).name("top-n-sink");
+                }).setParallelism(1).name("top-n-sink");
 
         try {
             env.execute("realtime-click-near-n");
