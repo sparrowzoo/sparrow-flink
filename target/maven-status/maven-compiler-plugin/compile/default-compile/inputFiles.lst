@@ -29,6 +29,7 @@ D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\utils\Ascend
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\utils\top\StreamTopCollector.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\cep\events\TemperatureWarning.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\utils\UnitTimeUtils.java
+D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\watermark\PunctuatedWatermarksAssigner.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\window\AverageAccumulator.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\po\WordCount.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\watermark\EventTriggerProxy.java
@@ -38,6 +39,7 @@ D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\ml\TFjavaDemo.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\utils\redis\AddressAssemble.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\cep\sources\MonitoringEventSource.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\window\count\CountUserBehaviorNearAllApplication.java
+D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\table\TableUserBehavior.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\cep\events\TemperatureAlert.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\window\count\CountTriggerProxy.java
 D:\workspace\sparrow\sparrow-flink\src\main\java\com\sparrow\stream\window\IncreamentAggregation.java

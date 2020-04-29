@@ -15,7 +15,6 @@ com\sparrow\stream\watermark\WatermarkApplication$2.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearAllApplication$4.class
 com\sprucetec\recommend\stream\cep\CEPMonitoring.class
 com\sparrow\stream\utils\redis\TtlRedisSink$1.class
-com\sparrow\stream\watermark\WatermarkApplication$5.class
 com\sparrow\stream\word\FlinkRedisMapper.class
 com\sparrow\stream\MemoryTotal.class
 com\sparrow\stream\window\count\CountUserBehaviorNearApplication$3.class
@@ -43,6 +42,7 @@ com\sparrow\stream\watermark\WatermarkApplication$3.class
 com\sparrow\stream\word\WordCountApplication.class
 com\sparrow\stream\window\count\CountUserBehaviorNearAllApplication$4.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearApplication$4.class
+com\sparrow\stream\watermark\PunctuatedWatermarksAssigner.class
 com\sparrow\stream\watermark\WatermarkElement.class
 com\sprucetec\recommend\stream\cep\CEPMonitoring$1.class
 com\sparrow\stream\window\count\CountUserBehaviorNearAllApplication$1.class
