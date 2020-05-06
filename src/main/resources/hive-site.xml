@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>/user/hive/warehouse</value>
+    </property>
+    <property>
+        <name>hive.metastore.uris</name>
+        <value>thrift://dev04:9083</value>
+    </property>
+
+    <property>
+        <name>hive.querylog.location</name>
+        <value>/tmp/hive/querylog</value>
+        <description>Location of Hive run time structured log file</description>
+    </property>
+    <property>
+        <name>hive.exec.scratchdir</name>
+        <value>/tmp/hive</value>
+        <description>HDFS root scratch dir for Hive jobs which gets created with write all (733) permission. For each connecting user, an HDFS scratch dir: ${hive.exec.scratchdir}/&lt;username&gt; is created, with ${hive.scratch.dir.permission}.</description>
+    </property>
+</configuration>

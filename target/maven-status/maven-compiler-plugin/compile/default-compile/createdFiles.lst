@@ -8,6 +8,7 @@ com\sparrow\stream\window\count\CountUserBehaviorNearApplication.class
 com\sprucetec\recommend\stream\cep\events\TemperatureEvent.class
 com\sprucetec\recommend\stream\cep\events\MonitoringEvent.class
 com\sparrow\stream\window\count\CountUserBehaviorNearAllApplication$3.class
+com\sparrow\table\MysqlConnectorDemo.class
 com\sparrow\stream\window\AverageAccumulator.class
 com\sparrow\stream\window\count\DeduplicateFilter.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearApplication.class
@@ -33,6 +34,7 @@ com\sparrow\stream\window\AvgAggregation.class
 com\sprucetec\recommend\stream\cep\CEPMonitoring$2.class
 com\sparrow\ml\mysql\MysqlSourceALSExample.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearAllApplication$3.class
+com\sparrow\table\TableCSVDemo.class
 com\sparrow\stream\window\count\CountUserBehaviorNearApplication$2.class
 com\sparrow\stream\window\count\CountUserBehaviorNearSlidingApplication.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearAllApplication$2.class
@@ -40,6 +42,7 @@ com\sparrow\stream\window\count\CountUserBehaviorNearSlidingApplication$3.class
 com\sparrow\ml\csv\CsvSourceSinkExample.class
 com\sparrow\stream\watermark\WatermarkApplication$3.class
 com\sparrow\stream\word\WordCountApplication.class
+com\sparrow\table\TableCreator.class
 com\sparrow\stream\window\count\CountUserBehaviorNearAllApplication$4.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearApplication$4.class
 com\sparrow\stream\watermark\PunctuatedWatermarksAssigner.class
@@ -52,9 +55,12 @@ com\sparrow\stream\window\time\TimeUserBehaviorNearApplication$1.class
 com\sprucetec\recommend\stream\cep\sources\MonitoringEventSource.class
 com\sparrow\stream\utils\UnitTimeUtils.class
 com\sparrow\stream\utils\redis\TtlRedisSink.class
+com\sparrow\table\HiveTableDemo.class
 com\sparrow\stream\utils\redis\TtlRedisContainer.class
+com\sparrow\table\TableCsvAggregationDemo.class
 com\sparrow\stream\utils\top\StreamTopCollector.class
 com\sparrow\stream\window\time\TimeTriggerProxy.class
+com\sparrow\table\MysqlSinkDemo.class
 com\sparrow\stream\window\count\CountUserBehaviorNearApplication$1.class
 com\sparrow\ml\lr\LogisticRegressionExample.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearAllApplication$1.class
