@@ -17,7 +17,7 @@
         <commons-lang.version>2.5</commons-lang.version>
         <scala.binary.version>2.11</scala.binary.version>
         <rocketmq-flink.version>0.0.1-SNAPSHOT</rocketmq-flink.version>
-        <hive.version>1.1.0</hive.version>
+        <hive.version>2.3.4</hive.version>
     </properties>
 
     <dependencies>
