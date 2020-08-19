@@ -1,5 +1,6 @@
 com\sparrow\stream\window\count\CountUserBehaviorNearSlidingApplication$1.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearApplication$2.class
+com\sparrow\stream\window\count\OperatorFunctionMapper.class
 com\sparrow\stream\word\WordCountApplication$1.class
 com\sparrow\stream\window\behivior\UserBehaviorBO.class
 com\sparrow\stream\utils\redis\AddressAssemble.class
@@ -75,5 +76,6 @@ com\sparrow\stream\window\count\CountUserBehaviorNearApplication$4.class
 com\sparrow\stream\utils\HBaseUtils.class
 com\sparrow\stream\window\time\TimeUserBehaviorNearAllApplication.class
 com\sparrow\stream\utils\DescendingHashValueComparator.class
+com\sparrow\stream\window\count\OperatorFunctionMapper$1.class
 com\sparrow\stream\window\count\CountUserBehaviorNearSlidingApplication$4.class
 com\sprucetec\recommend\stream\cep\events\TemperatureAlert.class

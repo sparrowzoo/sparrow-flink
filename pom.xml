@@ -202,6 +202,10 @@
             <artifactId>hbase-endpoint</artifactId>
             <version>2.2.4</version>
         </dependency>
-
+        <dependency>
+            <groupId>net.sf.py4j</groupId>
+            <artifactId>py4j</artifactId>
+            <version>0.10.9</version>
+        </dependency>
     </dependencies>
 </project>

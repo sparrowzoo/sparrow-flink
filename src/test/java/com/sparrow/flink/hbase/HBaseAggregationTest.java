@@ -30,9 +30,9 @@ public class HBaseAggregationTest {
         SingleColumnValueFilter filter = new SingleColumnValueFilter(Bytes.toBytes("cf"),
                 Bytes.toBytes("count"), CompareFilter.CompareOp.GREATER_OR_EQUAL, Bytes.toBytes(0));
         scan.setFilter(filter);
-        Long max = aggregationClient.sum(TableName.valueOf("company_click"), columnInterpreter,
+
+        aggregationClient.sum(TableName.valueOf("company_click"), columnInterpreter,
                 scan);
-        System.out.println(new BigDecimal(max.doubleValue()));
         aggregationClient.close();
     }
 }
